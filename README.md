@@ -13,21 +13,34 @@ Retirar fondos solo por el beneficiario designado (patrón de acceso controlado)
 Eventos y errores personalizados para transparencia y seguridad.
 ⚠️ Advertencia: Diseñado con fines educativos. No usar en producción sin auditoría.
 
+Este fue el tercer proyecto práctico y con él abordamos los siguientes temas:
+
 Funciones private, internal y payable
+
 Mappings
+
 Variables del tipo address y sus propiedades
+
 Manipulación de Ether
+
 Transferencias de Ether
+
 Manejo de errores
+
 Errores personalizados
+
 Control de acceso
+
 Modificadores (modifiers)
+
 Constructores (constructors)
+
 Modificadores de variables de estado (immutable y constant)
+
 Patrones de seguridad y buenas prácticas
 
 🚀 Cómo ejecutarlo
-Opción 1: Remix IDE (Rápido)
+
 Abrir Remix: Ve a https://remix.ethereum.org.
 Crear archivo:
 Haz clic en "File Explorer" (icono de carpeta).
@@ -44,8 +57,6 @@ Haz clic en "Deploy".
 Interactuar:
 Donar: Envía ETH a la dirección del contrato o llama a donar() con valor.
 Retirar: Llama a retirar(_valor) solo desde la cuenta del beneficiario.
-
-PASOS PARA PROBAR EL PROYECTO
 
 Contrato desplegado: https://sepolia.etherscan.io/address/0x464A035978D28cc9478aFf4e636F88C157F7F9B2
 
