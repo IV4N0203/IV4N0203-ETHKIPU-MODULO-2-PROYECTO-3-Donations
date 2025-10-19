@@ -8,9 +8,13 @@ En este proyecto se trabajo con los siguientes temas:
 Este contrato permite:
 
 Recibir donaciones en ETH (vía donar(), receive(), o fallback()).
+
 Registrar donantes en un mapping (historial de donaciones por dirección).
+
 Retirar fondos solo por el beneficiario designado (patrón de acceso controlado).
+
 Eventos y errores personalizados para transparencia y seguridad.
+
 ⚠️ Advertencia: Diseñado con fines educativos. No usar en producción sin auditoría.
 
 Este fue el tercer proyecto práctico y con él abordamos los siguientes temas:
