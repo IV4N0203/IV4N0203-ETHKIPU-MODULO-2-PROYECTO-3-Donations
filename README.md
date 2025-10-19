@@ -46,18 +46,22 @@ Patrones de seguridad y buenas prácticas
 🚀 Cómo ejecutarlo
 
 Abrir Remix: Ve a https://remix.ethereum.org.
+
 Crear archivo:
 Haz clic en "File Explorer" (icono de carpeta).
 Crea un nuevo archivo llamado Donations.sol y pega el código.
+
 Compilar:
 Ve a la pestaña "Solidity Compiler".
 Selecciona Compiler Version 0.8.26.
 Haz clic en "Compile Donations.sol".
+
 Desplegar:
 Ve a la pestaña "Deploy & Run Transactions".
 Selecciona el entorno "Injected Provider" (si usas MetaMask) o "JavaScript VM" (para pruebas locales).
 Ingresa la dirección del beneficiario (ej: 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2).
 Haz clic en "Deploy".
+
 Interactuar:
 Donar: Envía ETH a la dirección del contrato o llama a donar() con valor.
 Retirar: Llama a retirar(_valor) solo desde la cuenta del beneficiario.
